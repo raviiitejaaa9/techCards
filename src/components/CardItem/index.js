@@ -7,7 +7,7 @@ const CardItem = props => {
     <li className={className}>
       <h1> {title} </h1>
       <p> {description} </p>
-      <img href={imgUrl} alt={title} />
+      <img src={imgUrl} alt={title} />
     </li>
   )
 }

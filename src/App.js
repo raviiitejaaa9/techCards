@@ -39,7 +39,7 @@ const cardsList = [
 const App = () => (
   <div>
     <h1> Learn 4.0 Technologies </h1>
-    <p> Get trained by alumni of IIT's .... </p>
+    <p> Get trained by alumni of IIT </p>
     <ul>
       {cardsList.map(eachObject => (
         <CardItem cardDetail={eachObject} key={eachObject.id} />
